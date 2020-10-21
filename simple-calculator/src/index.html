@@ -1,0 +1,41 @@
+<title>Calculator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!--This link affects the font of all the buttons on the calculator-->
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+<body>
+  <div id="wrapper">
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    
+    <button data-all-clear id="clear">AC</button>
+    
+    <button data-operation id="divi">/</button>
+    <button data-operation id="multi">*</button>
+    <button data-operation id="sub">-</button>
+    
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation id="add" class="span-two">+</button>
+    
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    
+    
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-equals id="equal" class="span-two">=</button>
+    
+  
+    <button data-number class="span-two-z">0</button>
+    <button data-number>.</button>
+  </div>
+  </div>
+</body>
